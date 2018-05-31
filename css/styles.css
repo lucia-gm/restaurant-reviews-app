@@ -283,15 +283,45 @@ a.skip:focus, a.skip:active {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
-  display: block;
+  border: 2px solid #f3f3f3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   list-style-type: none;
   margin: 0 0 30px;
-  padding: 10px 20px 20px;
   width: 100%;
+  border-radius: 16px 16px 6px 6px;
 }
 #reviews-list li p {
   margin: 0 0 10px;
+}
+#reviews-list li p.review-heading {
+  background-color: #333;
+  width: 50%;
+  padding: 15px 20px 10px;
+}
+#reviews-list li p.review-name {
+  color: #fff;
+  font-size: 12pt;
+  font-weight: bold;
+  border-radius: 16px 0 0;
+}
+#reviews-list li p.review-date {
+  color: #ddd;
+  text-align: right;
+  border-radius: 0 16px 0 0;
+}
+#reviews-list li p.review-body {
+  margin: 10px 20px;
+}
+#reviews-list li p.review-rate {
+  background-color: #f58500;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+#reviews-list li p.review-comment {
+  padding-bottom: 20px;
 }
 #restaurant-hours td {
   color: #666;
