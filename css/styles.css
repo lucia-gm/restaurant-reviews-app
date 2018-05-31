@@ -79,6 +79,19 @@ a.skip {
   overflow: hidden;
   z-index: -999;
 }
+a.skip:focus, a.skip:active {
+  color: #fff;
+  background-color: #f18200;
+  left: auto;
+  top: auto;
+  width: 25%;
+  height: auto;
+  margin: 0 35%;
+  padding: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  z-index: 999;
+}
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
