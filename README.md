@@ -2,6 +2,8 @@
 
 This project is part of the Udacity Front-End Nanodegree. 
 
+![Preview](img/preview.png)
+
 
 ## Project Overview:
 
