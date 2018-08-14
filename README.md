@@ -1,17 +1,15 @@
 # Restaurant Reviews App
-
-This project is part of the Udacity Front-End Nanodegree. 
+A static webpage is converted to a mobile-ready web application. That includes, converting the design to be responsive on different sized displays and accessible for screen reader use. A service worker is also added to cache the data for the website so that any page that has been visited is accessible offline.
 
 ![Preview](img/preview.png)
 
 
 ## Project Overview:
-
-In this project, a static webpage is converted to a mobile-ready web application. That includes, converting the design to be responsive on different sized displays and accessible for screen reader use. A service worker is also added to cache the data for the website so that any page that has been visited is accessible offline.
+The project is part of the Udacity Front-End Nanodegree and [here](https://github.com/udacity/mws-restaurant-stage-1) is the starter code.
+The code provided it was barely usable on a desktop browser, much less a mobile device. It also didn’t include any standard accessibility features, and it didn’t work offline at all. I had to update the code to resolve these issues while still maintaining the included functionality.
 
 
 ## How to run the application
-
 1. Download or clone this repository.
 2. From inside the new directory, launch a local client server using Python from your terminal. To check the version of Python you have type in your terminal `python -V`.
     - If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) 
@@ -20,13 +18,7 @@ In this project, a static webpage is converted to a mobile-ready web application
 3. Visit the site in your browser at http://localhost:8000.
 
 
-## Credits
-
-The starter code is from [Udacity](https://github.com/udacity/mws-restaurant-stage-1).
-
-
 ## License
-
 MIT License
 
 Copyright (c) 2018 Lucia Gonzalez Moscoso
